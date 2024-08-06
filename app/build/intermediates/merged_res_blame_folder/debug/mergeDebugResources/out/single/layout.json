@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-mergeDebugResources-43:/layout/fragment_add_article.xml",
+        "source": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-main-46:/layout/fragment_add_article.xml"
+    },
+    {
+        "merged": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-mergeDebugResources-43:/layout/fragment_profile.xml",
+        "source": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-main-46:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-mergeDebugResources-43:/layout/activity_add_article.xml",
+        "source": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-main-46:/layout/activity_add_article.xml"
+    },
+    {
+        "merged": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-mergeDebugResources-43:/layout/activity_register.xml",
+        "source": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-main-46:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.honley.flazemobile.app-mergeDebugResources-43:/layout/item_article.xml",
+        "source": "com.honley.flazemobile.app-main-46:/layout/item_article.xml"
+    },
+    {
+        "merged": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-mergeDebugResources-43:/layout/item_article.xml",
+        "source": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-main-46:/layout/item_article.xml"
+    },
+    {
+        "merged": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-mergeDebugResources-43:/layout/activity_splash.xml",
+        "source": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-main-46:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-mergeDebugResources-43:/layout/activity_login.xml",
+        "source": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-main-46:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-mergeDebugResources-43:/layout/fragment_support.xml",
+        "source": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-main-46:/layout/fragment_support.xml"
+    },
+    {
+        "merged": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-mergeDebugResources-43:/layout/fragment_articles.xml",
+        "source": "/home/honley/.gradle/daemon/8.4/com.honley.flazemobile.app-main-46:/layout/fragment_articles.xml"
+    }
+]

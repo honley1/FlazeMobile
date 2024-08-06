@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/image_profile"
+        android:layout_width="321dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/profile"
+        android:src="@drawable/flaze_2" />
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="325dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="@string/description"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_support"
+        android:layout_width="325dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="@string/text_support"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

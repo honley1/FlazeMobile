@@ -1,0 +1,449 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.honley.flazemobile"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:5:5-66
+11-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+13-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/honley/.gradle/caches/transforms-3/b89233821cbbd4cb704a8d11efe267e7/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+13-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/honley/.gradle/caches/transforms-3/b89233821cbbd4cb704a8d11efe267e7/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:24:5-68
+14-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+15-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:25:5-79
+15-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+16-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:26:5-88
+16-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:26:22-85
+17    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:27:5-82
+17-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:27:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:26:22-107
+19
+20    <permission
+20-->[androidx.core:core:1.13.1] /home/honley/.gradle/caches/transforms-3/90e7891a324a1be6f8656b43b3f75e6c/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+21        android:name="com.honley.flazemobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.13.1] /home/honley/.gradle/caches/transforms-3/90e7891a324a1be6f8656b43b3f75e6c/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.13.1] /home/honley/.gradle/caches/transforms-3/90e7891a324a1be6f8656b43b3f75e6c/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.honley.flazemobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.13.1] /home/honley/.gradle/caches/transforms-3/90e7891a324a1be6f8656b43b3f75e6c/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.13.1] /home/honley/.gradle/caches/transforms-3/90e7891a324a1be6f8656b43b3f75e6c/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:7:5-34:19
+27        android:allowBackup="true"
+27-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:8:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.13.1] /home/honley/.gradle/caches/transforms-3/90e7891a324a1be6f8656b43b3f75e6c/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:9:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:10:9-54
+33        android:icon="@drawable/flaze"
+33-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:11:9-39
+34        android:label="@string/app_name"
+34-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:12:9-41
+35        android:roundIcon="@drawable/flaze"
+35-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:13:9-44
+36        android:supportsRtl="true"
+36-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:14:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.FlazeMobile" >
+38-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:15:9-49
+39        <activity
+39-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:18:9-23:20
+40            android:name="com.honley.flazemobile.SplashActivity"
+40-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:18:19-49
+41            android:exported="true" >
+41-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:18:50-73
+42            <intent-filter>
+42-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:19:13-22:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:20:17-69
+43-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:20:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:21:17-77
+45-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:21:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity android:name="com.honley.flazemobile.MainActivity" />
+48-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:25:9-50
+48-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:25:19-47
+49        <activity android:name="com.honley.flazemobile.AddArticleActivity" />
+49-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:27:9-56
+49-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:27:19-53
+50        <activity
+50-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:29:9-75
+51            android:name="com.honley.flazemobile.LoginActivity"
+51-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:29:19-48
+52            android:exported="true" />
+52-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:29:49-72
+53        <activity android:name="com.honley.flazemobile.RegisterActivity" />
+53-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:31:9-54
+53-->/home/honley/programs_honley/projects_java/FlazeMobile/app/src/main/AndroidManifest.xml:31:19-51
+54        <activity
+54-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+55            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+55-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+56            android:excludeFromRecents="true"
+56-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+57            android:exported="true"
+57-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+58            android:launchMode="singleTask"
+58-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+59-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+60            <intent-filter>
+60-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+61                <action android:name="android.intent.action.VIEW" />
+61-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+61-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+63-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+64                <category android:name="android.intent.category.BROWSABLE" />
+64-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+64-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+65
+66                <data
+66-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+67                    android:host="firebase.auth"
+67-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+68                    android:path="/"
+68-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+69                    android:scheme="genericidp" />
+69-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+73            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+73-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+74            android:excludeFromRecents="true"
+74-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+75            android:exported="true"
+75-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+76            android:launchMode="singleTask"
+76-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+77-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+78            <intent-filter>
+78-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+79                <action android:name="android.intent.action.VIEW" />
+79-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+79-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+81-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+82                <category android:name="android.intent.category.BROWSABLE" />
+82-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+82-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+83
+84                <data
+84-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+85                    android:host="firebase.auth"
+85-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+86                    android:path="/"
+86-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+87                    android:scheme="recaptcha" />
+87-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+88            </intent-filter>
+89        </activity>
+90
+91        <service
+91-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:66:9-72:19
+92            android:name="com.google.firebase.components.ComponentDiscoveryService"
+92-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:67:13-84
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:21.0.0] /home/honley/.gradle/caches/transforms-3/24bfb44e8263acd8e41d500f45321ff2/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:68:13-37
+95            <meta-data
+95-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+96                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+96-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-auth:23.0.0] /home/honley/.gradle/caches/transforms-3/6e77df930cd323d062d0d40d1a791503/transformed/firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-database:21.0.0] /home/honley/.gradle/caches/transforms-3/44689e675a134b93f25fa35933f54c54/transformed/firebase-database-21.0.0/AndroidManifest.xml:29:13-31:85
+99                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+99-->[com.google.firebase:firebase-database:21.0.0] /home/honley/.gradle/caches/transforms-3/44689e675a134b93f25fa35933f54c54/transformed/firebase-database-21.0.0/AndroidManifest.xml:30:17-120
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-database:21.0.0] /home/honley/.gradle/caches/transforms-3/44689e675a134b93f25fa35933f54c54/transformed/firebase-database-21.0.0/AndroidManifest.xml:31:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-database:21.0.0] /home/honley/.gradle/caches/transforms-3/44689e675a134b93f25fa35933f54c54/transformed/firebase-database-21.0.0/AndroidManifest.xml:32:13-34:85
+102                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+102-->[com.google.firebase:firebase-database:21.0.0] /home/honley/.gradle/caches/transforms-3/44689e675a134b93f25fa35933f54c54/transformed/firebase-database-21.0.0/AndroidManifest.xml:33:17-109
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-database:21.0.0] /home/honley/.gradle/caches/transforms-3/44689e675a134b93f25fa35933f54c54/transformed/firebase-database-21.0.0/AndroidManifest.xml:34:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-storage:21.0.0] /home/honley/.gradle/caches/transforms-3/24ebfae4339c71766bb911a34f99cc94/transformed/firebase-storage-21.0.0/AndroidManifest.xml:30:13-32:85
+105                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+105-->[com.google.firebase:firebase-storage:21.0.0] /home/honley/.gradle/caches/transforms-3/24ebfae4339c71766bb911a34f99cc94/transformed/firebase-storage-21.0.0/AndroidManifest.xml:31:17-118
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-storage:21.0.0] /home/honley/.gradle/caches/transforms-3/24ebfae4339c71766bb911a34f99cc94/transformed/firebase-storage-21.0.0/AndroidManifest.xml:32:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-storage:21.0.0] /home/honley/.gradle/caches/transforms-3/24ebfae4339c71766bb911a34f99cc94/transformed/firebase-storage-21.0.0/AndroidManifest.xml:33:13-35:85
+108                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+108-->[com.google.firebase:firebase-storage:21.0.0] /home/honley/.gradle/caches/transforms-3/24ebfae4339c71766bb911a34f99cc94/transformed/firebase-storage-21.0.0/AndroidManifest.xml:34:17-107
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-storage:21.0.0] /home/honley/.gradle/caches/transforms-3/24ebfae4339c71766bb911a34f99cc94/transformed/firebase-storage-21.0.0/AndroidManifest.xml:35:17-82
+110            <meta-data
+110-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:37:13-39:85
+111                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+111-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:38:17-139
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:39:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-appcheck:18.0.0] /home/honley/.gradle/caches/transforms-3/333e607c694b0398ada8cc2b73f8be55/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:25:13-27:85
+114                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+114-->[com.google.firebase:firebase-appcheck:18.0.0] /home/honley/.gradle/caches/transforms-3/333e607c694b0398ada8cc2b73f8be55/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:26:17-120
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-appcheck:18.0.0] /home/honley/.gradle/caches/transforms-3/333e607c694b0398ada8cc2b73f8be55/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:27:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-appcheck:18.0.0] /home/honley/.gradle/caches/transforms-3/333e607c694b0398ada8cc2b73f8be55/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:28:13-30:85
+117                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+117-->[com.google.firebase:firebase-appcheck:18.0.0] /home/honley/.gradle/caches/transforms-3/333e607c694b0398ada8cc2b73f8be55/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:29:17-117
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-appcheck:18.0.0] /home/honley/.gradle/caches/transforms-3/333e607c694b0398ada8cc2b73f8be55/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:30:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-installations:18.0.0] /home/honley/.gradle/caches/transforms-3/a67c2e5d7f07f8dc47c4850e50c0d271/transformed/firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+120                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+120-->[com.google.firebase:firebase-installations:18.0.0] /home/honley/.gradle/caches/transforms-3/a67c2e5d7f07f8dc47c4850e50c0d271/transformed/firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-installations:18.0.0] /home/honley/.gradle/caches/transforms-3/a67c2e5d7f07f8dc47c4850e50c0d271/transformed/firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-installations:18.0.0] /home/honley/.gradle/caches/transforms-3/a67c2e5d7f07f8dc47c4850e50c0d271/transformed/firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+123                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+123-->[com.google.firebase:firebase-installations:18.0.0] /home/honley/.gradle/caches/transforms-3/a67c2e5d7f07f8dc47c4850e50c0d271/transformed/firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-installations:18.0.0] /home/honley/.gradle/caches/transforms-3/a67c2e5d7f07f8dc47c4850e50c0d271/transformed/firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/honley/.gradle/caches/transforms-3/26eafdbea7e9f02763f8bf36a9c2a009/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+126                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+126-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/honley/.gradle/caches/transforms-3/26eafdbea7e9f02763f8bf36a9c2a009/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/honley/.gradle/caches/transforms-3/26eafdbea7e9f02763f8bf36a9c2a009/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-common:21.0.0] /home/honley/.gradle/caches/transforms-3/24bfb44e8263acd8e41d500f45321ff2/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+129                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+129-->[com.google.firebase:firebase-common:21.0.0] /home/honley/.gradle/caches/transforms-3/24bfb44e8263acd8e41d500f45321ff2/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-common:21.0.0] /home/honley/.gradle/caches/transforms-3/24bfb44e8263acd8e41d500f45321ff2/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+131        </service>
+132        <service
+132-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+133            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+133-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+134            android:enabled="true"
+134-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+135            android:exported="false" >
+135-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+136            <meta-data
+136-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+137                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+137-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+138                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+138-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+139        </service>
+140
+141        <activity
+141-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+142            android:name="androidx.credentials.playservices.HiddenActivity"
+142-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+143            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+143-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+144            android:enabled="true"
+144-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+145            android:exported="false"
+145-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+146            android:fitsSystemWindows="true"
+146-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+147            android:theme="@style/Theme.Hidden" >
+147-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/honley/.gradle/caches/transforms-3/32ebf1e84cb4a6caf18d558a6fa89681/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+148        </activity>
+149        <activity
+149-->[com.google.android.gms:play-services-auth:20.7.0] /home/honley/.gradle/caches/transforms-3/5f0ef55c720680c0a95621fb0c632023/transformed/play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+150            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+150-->[com.google.android.gms:play-services-auth:20.7.0] /home/honley/.gradle/caches/transforms-3/5f0ef55c720680c0a95621fb0c632023/transformed/play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+151            android:excludeFromRecents="true"
+151-->[com.google.android.gms:play-services-auth:20.7.0] /home/honley/.gradle/caches/transforms-3/5f0ef55c720680c0a95621fb0c632023/transformed/play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+152            android:exported="false"
+152-->[com.google.android.gms:play-services-auth:20.7.0] /home/honley/.gradle/caches/transforms-3/5f0ef55c720680c0a95621fb0c632023/transformed/play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+153-->[com.google.android.gms:play-services-auth:20.7.0] /home/honley/.gradle/caches/transforms-3/5f0ef55c720680c0a95621fb0c632023/transformed/play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+154        <!--
+155            Service handling Google Sign-In user revocation. For apps that do not integrate with
+156            Google Sign-In, this service will never be started.
+157        -->
+158        <service
+158-->[com.google.android.gms:play-services-auth:20.7.0] /home/honley/.gradle/caches/transforms-3/5f0ef55c720680c0a95621fb0c632023/transformed/play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+159            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+159-->[com.google.android.gms:play-services-auth:20.7.0] /home/honley/.gradle/caches/transforms-3/5f0ef55c720680c0a95621fb0c632023/transformed/play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+160            android:exported="true"
+160-->[com.google.android.gms:play-services-auth:20.7.0] /home/honley/.gradle/caches/transforms-3/5f0ef55c720680c0a95621fb0c632023/transformed/play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+161            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+161-->[com.google.android.gms:play-services-auth:20.7.0] /home/honley/.gradle/caches/transforms-3/5f0ef55c720680c0a95621fb0c632023/transformed/play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+162            android:visibleToInstantApps="true" />
+162-->[com.google.android.gms:play-services-auth:20.7.0] /home/honley/.gradle/caches/transforms-3/5f0ef55c720680c0a95621fb0c632023/transformed/play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+163
+164        <property
+164-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:30:9-32:61
+165            android:name="android.adservices.AD_SERVICES_CONFIG"
+165-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:31:13-65
+166            android:resource="@xml/ga_ad_services_config" />
+166-->[com.google.android.gms:play-services-measurement-api:22.0.1] /home/honley/.gradle/caches/transforms-3/dff24325770fc7fc56eaad0bbd9cffba/transformed/play-services-measurement-api-22.0.1/AndroidManifest.xml:32:13-58
+167
+168        <provider
+168-->[com.google.firebase:firebase-common:21.0.0] /home/honley/.gradle/caches/transforms-3/24bfb44e8263acd8e41d500f45321ff2/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+169            android:name="com.google.firebase.provider.FirebaseInitProvider"
+169-->[com.google.firebase:firebase-common:21.0.0] /home/honley/.gradle/caches/transforms-3/24bfb44e8263acd8e41d500f45321ff2/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+170            android:authorities="com.honley.flazemobile.firebaseinitprovider"
+170-->[com.google.firebase:firebase-common:21.0.0] /home/honley/.gradle/caches/transforms-3/24bfb44e8263acd8e41d500f45321ff2/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+171            android:directBootAware="true"
+171-->[com.google.firebase:firebase-common:21.0.0] /home/honley/.gradle/caches/transforms-3/24bfb44e8263acd8e41d500f45321ff2/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+172            android:exported="false"
+172-->[com.google.firebase:firebase-common:21.0.0] /home/honley/.gradle/caches/transforms-3/24bfb44e8263acd8e41d500f45321ff2/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+173            android:initOrder="100" />
+173-->[com.google.firebase:firebase-common:21.0.0] /home/honley/.gradle/caches/transforms-3/24bfb44e8263acd8e41d500f45321ff2/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+174
+175        <activity
+175-->[com.google.android.gms:play-services-base:18.1.0] /home/honley/.gradle/caches/transforms-3/92214132af1f00262ae574e277f48876/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+176            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+176-->[com.google.android.gms:play-services-base:18.1.0] /home/honley/.gradle/caches/transforms-3/92214132af1f00262ae574e277f48876/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+177            android:exported="false"
+177-->[com.google.android.gms:play-services-base:18.1.0] /home/honley/.gradle/caches/transforms-3/92214132af1f00262ae574e277f48876/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+178-->[com.google.android.gms:play-services-base:18.1.0] /home/honley/.gradle/caches/transforms-3/92214132af1f00262ae574e277f48876/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+179
+180        <provider
+180-->[androidx.emoji2:emoji2:1.2.0] /home/honley/.gradle/caches/transforms-3/ebe00e0a2df802df5bc9424d62555991/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+181            android:name="androidx.startup.InitializationProvider"
+181-->[androidx.emoji2:emoji2:1.2.0] /home/honley/.gradle/caches/transforms-3/ebe00e0a2df802df5bc9424d62555991/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+182            android:authorities="com.honley.flazemobile.androidx-startup"
+182-->[androidx.emoji2:emoji2:1.2.0] /home/honley/.gradle/caches/transforms-3/ebe00e0a2df802df5bc9424d62555991/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+183            android:exported="false" >
+183-->[androidx.emoji2:emoji2:1.2.0] /home/honley/.gradle/caches/transforms-3/ebe00e0a2df802df5bc9424d62555991/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+184            <meta-data
+184-->[androidx.emoji2:emoji2:1.2.0] /home/honley/.gradle/caches/transforms-3/ebe00e0a2df802df5bc9424d62555991/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+185                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+185-->[androidx.emoji2:emoji2:1.2.0] /home/honley/.gradle/caches/transforms-3/ebe00e0a2df802df5bc9424d62555991/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+186                android:value="androidx.startup" />
+186-->[androidx.emoji2:emoji2:1.2.0] /home/honley/.gradle/caches/transforms-3/ebe00e0a2df802df5bc9424d62555991/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+187            <meta-data
+187-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/honley/.gradle/caches/transforms-3/fa488b6ded9ca23eb76cfa03fd97c604/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+188                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+188-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/honley/.gradle/caches/transforms-3/fa488b6ded9ca23eb76cfa03fd97c604/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+189                android:value="androidx.startup" />
+189-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/honley/.gradle/caches/transforms-3/fa488b6ded9ca23eb76cfa03fd97c604/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+190            <meta-data
+190-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+191                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+191-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+192                android:value="androidx.startup" />
+192-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+193        </provider>
+194
+195        <receiver
+195-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:29:9-33:20
+196            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+196-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:30:13-85
+197            android:enabled="true"
+197-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:31:13-35
+198            android:exported="false" >
+198-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:32:13-37
+199        </receiver>
+200
+201        <service
+201-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:35:9-38:40
+202            android:name="com.google.android.gms.measurement.AppMeasurementService"
+202-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:36:13-84
+203            android:enabled="true"
+203-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:37:13-35
+204            android:exported="false" />
+204-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:38:13-37
+205        <service
+205-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:39:9-43:72
+206            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+206-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:40:13-87
+207            android:enabled="true"
+207-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:41:13-35
+208            android:exported="false"
+208-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:42:13-37
+209            android:permission="android.permission.BIND_JOB_SERVICE" />
+209-->[com.google.android.gms:play-services-measurement:22.0.1] /home/honley/.gradle/caches/transforms-3/bb7ed14ec164e068620560986799e7e6/transformed/play-services-measurement-22.0.1/AndroidManifest.xml:43:13-69
+210
+211        <uses-library
+211-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/honley/.gradle/caches/transforms-3/0d9d6d5dd4e37480fe893b13dce1292b/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+212            android:name="android.ext.adservices"
+212-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/honley/.gradle/caches/transforms-3/0d9d6d5dd4e37480fe893b13dce1292b/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+213            android:required="false" />
+213-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/honley/.gradle/caches/transforms-3/0d9d6d5dd4e37480fe893b13dce1292b/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+214
+215        <meta-data
+215-->[com.google.android.gms:play-services-basement:18.3.0] /home/honley/.gradle/caches/transforms-3/3cb667de1754f93ff8fb78f1e411959b/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+216            android:name="com.google.android.gms.version"
+216-->[com.google.android.gms:play-services-basement:18.3.0] /home/honley/.gradle/caches/transforms-3/3cb667de1754f93ff8fb78f1e411959b/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+217            android:value="@integer/google_play_services_version" />
+217-->[com.google.android.gms:play-services-basement:18.3.0] /home/honley/.gradle/caches/transforms-3/3cb667de1754f93ff8fb78f1e411959b/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+218
+219        <receiver
+219-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+220            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+220-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+221            android:directBootAware="false"
+221-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+222            android:enabled="true"
+222-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+223            android:exported="true"
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+224            android:permission="android.permission.DUMP" >
+224-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+225            <intent-filter>
+225-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+226                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+226-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+226-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+227            </intent-filter>
+228            <intent-filter>
+228-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+229                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+229-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+229-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+230            </intent-filter>
+231            <intent-filter>
+231-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+232                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+233            </intent-filter>
+234            <intent-filter>
+234-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+235                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+235-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+235-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/honley/.gradle/caches/transforms-3/90fa533ebbfc0957ef0b998f812e2a28/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+236            </intent-filter>
+237        </receiver>
+238    </application>
+239
+240</manifest>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Flaze</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_username">Username</string>
+    <string name="enter_password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="new_to_here">New to here ?</string>
+    <string name="support">Support</string>
+    <string name="articles">Articles</string>
+    <string name="add_article">New article</string>
+    <string name="profile">Profile</string>
+    <string name="description">Flaze - это приложение для чтения статей. Здесь можно создавать и читать множество интересных статей.</string>
+    <string name="text_support">flazesupport@gmail.com</string>
+    <string name="article_image">Article image</string>
+    <string name="article_name_image">Article name image</string>
+    <string name="article_text_image">Article text image</string>
+    <string name="article_description_image">Article description image</string>
+    <string name="enter_article_name">Article name</string>
+    <string name="enter_article_description">Description</string>
+    <string name="create_article">Create article</string>
+    <string name="enter_article_text">Text</string>
+</resources>
